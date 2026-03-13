@@ -9,7 +9,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building Application"
-                sh 'docker build -t myapp .'
             }
         }
 
